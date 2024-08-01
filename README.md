@@ -1,3 +1,5 @@
+Test project showing a crash during file upload in a Vapor project.
+
 Created using vapor new Test_FileUpload
 Added UploadController.swift to count bytes received
 Added controller registration in routes.swift
@@ -40,5 +42,7 @@ Received a total of 825707896 bytes
 [ INFO ] POST /upload [request-id: AE0BF62E-1BD2-4355-A2C4-0C4C7D63B1BC]
 Vapor/RequestBody+Concurrency.swift:34: Fatal error
 ```
+
+Or when run from Xcode: ![error](ErrorInXcode.png)
 
 Sometimes it crashed on the 2nd iteration, sometimes it takes 20+ to crash

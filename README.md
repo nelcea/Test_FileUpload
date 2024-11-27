@@ -1,5 +1,7 @@
 Test project showing a crash during file upload in a Vapor project.
 
+** 27-Nov-2024: This is now fixed in vapor 4.106.5, that includes swift-nio 2.77.0 **
+
 Created using vapor new Test_FileUpload
 Added UploadController.swift to count bytes received
 Added controller registration in routes.swift
